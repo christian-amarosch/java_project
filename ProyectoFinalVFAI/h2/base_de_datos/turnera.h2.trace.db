@@ -1,0 +1,636 @@
+11-25 15:20:01 database: close
+org.h2.message.DbException: Timeout trying to lock table "SYS" [50200-176]
+	at org.h2.message.DbException.get(DbException.java:178)
+	at org.h2.message.DbException.get(DbException.java:154)
+	at org.h2.table.RegularTable.doLock(RegularTable.java:530)
+	at org.h2.table.RegularTable.lock(RegularTable.java:464)
+	at org.h2.engine.Database.lockMeta(Database.java:869)
+	at org.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1300)
+	at org.h2.engine.Database.close(Database.java:1251)
+	at org.h2.engine.Database.removeSession(Database.java:1122)
+	at org.h2.engine.Session.close(Session.java:672)
+	at org.h2.jdbc.JdbcConnection.close(JdbcConnection.java:383)
+	at turnera.TableManager.createPacienteTable(TableManager.java:29)
+	at turnera.Main.iniciarManager(Main.java:35)
+	at turnera.Main.main(Main.java:19)
+Caused by: org.h2.jdbc.JdbcSQLException: Timeout trying to lock table "SYS" [50200-176]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:344)
+	... 13 more
+11-25 15:22:25 database: close
+org.h2.message.DbException: Timeout trying to lock table "SYS" [50200-176]
+	at org.h2.message.DbException.get(DbException.java:178)
+	at org.h2.message.DbException.get(DbException.java:154)
+	at org.h2.table.RegularTable.doLock(RegularTable.java:530)
+	at org.h2.table.RegularTable.lock(RegularTable.java:464)
+	at org.h2.engine.Database.lockMeta(Database.java:869)
+	at org.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1300)
+	at org.h2.engine.Database.close(Database.java:1251)
+	at org.h2.engine.Database.removeSession(Database.java:1122)
+	at org.h2.engine.Session.close(Session.java:672)
+	at org.h2.jdbc.JdbcConnection.close(JdbcConnection.java:383)
+	at turnera.TableManager.createPacienteTable(TableManager.java:29)
+	at turnera.Main.iniciarManager(Main.java:35)
+	at turnera.Main.main(Main.java:19)
+Caused by: org.h2.jdbc.JdbcSQLException: Timeout trying to lock table "SYS" [50200-176]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:344)
+	... 13 more
+11-25 15:26:39 database: close
+org.h2.message.DbException: Timeout trying to lock table "SYS" [50200-176]
+	at org.h2.message.DbException.get(DbException.java:178)
+	at org.h2.message.DbException.get(DbException.java:154)
+	at org.h2.table.RegularTable.doLock(RegularTable.java:530)
+	at org.h2.table.RegularTable.lock(RegularTable.java:464)
+	at org.h2.engine.Database.lockMeta(Database.java:869)
+	at org.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1300)
+	at org.h2.engine.Database.close(Database.java:1251)
+	at org.h2.engine.Database.removeSession(Database.java:1122)
+	at org.h2.engine.Session.close(Session.java:672)
+	at org.h2.jdbc.JdbcConnection.close(JdbcConnection.java:383)
+	at turnera.TableManager.createPacienteTable(TableManager.java:29)
+	at turnera.Main.iniciarManager(Main.java:35)
+	at turnera.Main.main(Main.java:19)
+Caused by: org.h2.jdbc.JdbcSQLException: Timeout trying to lock table "SYS" [50200-176]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:344)
+	... 13 more
+11-25 15:51:17 database: close
+org.h2.message.DbException: Timeout trying to lock table "SYS" [50200-176]
+	at org.h2.message.DbException.get(DbException.java:178)
+	at org.h2.message.DbException.get(DbException.java:154)
+	at org.h2.table.RegularTable.doLock(RegularTable.java:530)
+	at org.h2.table.RegularTable.lock(RegularTable.java:464)
+	at org.h2.engine.Database.lockMeta(Database.java:869)
+	at org.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1300)
+	at org.h2.engine.Database.close(Database.java:1251)
+	at org.h2.engine.Database.removeSession(Database.java:1122)
+	at org.h2.engine.Session.close(Session.java:672)
+	at org.h2.jdbc.JdbcConnection.close(JdbcConnection.java:383)
+	at turnera.TableManager.createPacienteTable(TableManager.java:29)
+	at turnera.Main.iniciarManager(Main.java:35)
+	at turnera.Main.main(Main.java:19)
+Caused by: org.h2.jdbc.JdbcSQLException: Timeout trying to lock table "SYS" [50200-176]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:344)
+	... 13 more
+11-25 15:53:58 database: close
+org.h2.message.DbException: Timeout trying to lock table "SYS" [50200-176]
+	at org.h2.message.DbException.get(DbException.java:178)
+	at org.h2.message.DbException.get(DbException.java:154)
+	at org.h2.table.RegularTable.doLock(RegularTable.java:530)
+	at org.h2.table.RegularTable.lock(RegularTable.java:464)
+	at org.h2.engine.Database.lockMeta(Database.java:869)
+	at org.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1300)
+	at org.h2.engine.Database.close(Database.java:1251)
+	at org.h2.engine.Database.removeSession(Database.java:1122)
+	at org.h2.engine.Session.close(Session.java:672)
+	at org.h2.jdbc.JdbcConnection.close(JdbcConnection.java:383)
+	at turnera.TableManager.createPacienteTable(TableManager.java:29)
+	at turnera.Main.iniciarManager(Main.java:35)
+	at turnera.Main.main(Main.java:19)
+Caused by: org.h2.jdbc.JdbcSQLException: Timeout trying to lock table "SYS" [50200-176]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:344)
+	... 13 more
+11-25 15:54:49 database: close
+org.h2.message.DbException: Timeout trying to lock table "SYS" [50200-176]
+	at org.h2.message.DbException.get(DbException.java:178)
+	at org.h2.message.DbException.get(DbException.java:154)
+	at org.h2.table.RegularTable.doLock(RegularTable.java:530)
+	at org.h2.table.RegularTable.lock(RegularTable.java:464)
+	at org.h2.engine.Database.lockMeta(Database.java:869)
+	at org.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1300)
+	at org.h2.engine.Database.close(Database.java:1251)
+	at org.h2.engine.Database.removeSession(Database.java:1122)
+	at org.h2.engine.Session.close(Session.java:672)
+	at org.h2.jdbc.JdbcConnection.close(JdbcConnection.java:383)
+	at turnera.TableManager.createPacienteTable(TableManager.java:29)
+	at turnera.Main.iniciarManager(Main.java:35)
+	at turnera.Main.main(Main.java:19)
+Caused by: org.h2.jdbc.JdbcSQLException: Timeout trying to lock table "SYS" [50200-176]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:344)
+	... 13 more
+11-25 15:57:58 database: close
+org.h2.message.DbException: Timeout trying to lock table "SYS" [50200-176]
+	at org.h2.message.DbException.get(DbException.java:178)
+	at org.h2.message.DbException.get(DbException.java:154)
+	at org.h2.table.RegularTable.doLock(RegularTable.java:530)
+	at org.h2.table.RegularTable.lock(RegularTable.java:464)
+	at org.h2.engine.Database.lockMeta(Database.java:869)
+	at org.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1300)
+	at org.h2.engine.Database.close(Database.java:1251)
+	at org.h2.engine.Database.removeSession(Database.java:1122)
+	at org.h2.engine.Session.close(Session.java:672)
+	at org.h2.jdbc.JdbcConnection.close(JdbcConnection.java:383)
+	at turnera.TableManager.createPacienteTable(TableManager.java:29)
+	at turnera.Main.iniciarManager(Main.java:35)
+	at turnera.Main.main(Main.java:19)
+Caused by: org.h2.jdbc.JdbcSQLException: Timeout trying to lock table "SYS" [50200-176]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:344)
+	... 13 more
+11-25 16:19:36 database: close
+org.h2.message.DbException: Timeout trying to lock table "SYS" [50200-176]
+	at org.h2.message.DbException.get(DbException.java:178)
+	at org.h2.message.DbException.get(DbException.java:154)
+	at org.h2.table.RegularTable.doLock(RegularTable.java:530)
+	at org.h2.table.RegularTable.lock(RegularTable.java:464)
+	at org.h2.engine.Database.lockMeta(Database.java:869)
+	at org.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1300)
+	at org.h2.engine.Database.close(Database.java:1251)
+	at org.h2.engine.Database.removeSession(Database.java:1122)
+	at org.h2.engine.Session.close(Session.java:672)
+	at org.h2.jdbc.JdbcConnection.close(JdbcConnection.java:383)
+	at turnera.TableManager.createPacienteTable(TableManager.java:29)
+	at turnera.Main.iniciarManager(Main.java:35)
+	at turnera.Main.main(Main.java:19)
+Caused by: org.h2.jdbc.JdbcSQLException: Timeout trying to lock table "SYS" [50200-176]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:344)
+	... 13 more
+11-25 16:23:36 database: close
+org.h2.message.DbException: Timeout trying to lock table "SYS" [50200-176]
+	at org.h2.message.DbException.get(DbException.java:178)
+	at org.h2.message.DbException.get(DbException.java:154)
+	at org.h2.table.RegularTable.doLock(RegularTable.java:530)
+	at org.h2.table.RegularTable.lock(RegularTable.java:464)
+	at org.h2.engine.Database.lockMeta(Database.java:869)
+	at org.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1300)
+	at org.h2.engine.Database.close(Database.java:1251)
+	at org.h2.engine.Database.removeSession(Database.java:1122)
+	at org.h2.engine.Session.close(Session.java:672)
+	at org.h2.jdbc.JdbcConnection.close(JdbcConnection.java:383)
+	at turnera.TableManager.createPacienteTable(TableManager.java:29)
+	at turnera.Main.iniciarManager(Main.java:35)
+	at turnera.Main.main(Main.java:19)
+Caused by: org.h2.jdbc.JdbcSQLException: Timeout trying to lock table "SYS" [50200-176]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:344)
+	... 13 more
+11-25 16:24:41 database: close
+org.h2.message.DbException: Timeout trying to lock table "SYS" [50200-176]
+	at org.h2.message.DbException.get(DbException.java:178)
+	at org.h2.message.DbException.get(DbException.java:154)
+	at org.h2.table.RegularTable.doLock(RegularTable.java:530)
+	at org.h2.table.RegularTable.lock(RegularTable.java:464)
+	at org.h2.engine.Database.lockMeta(Database.java:869)
+	at org.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1300)
+	at org.h2.engine.Database.close(Database.java:1251)
+	at org.h2.engine.Database.removeSession(Database.java:1122)
+	at org.h2.engine.Session.close(Session.java:672)
+	at org.h2.jdbc.JdbcConnection.close(JdbcConnection.java:383)
+	at turnera.TableManager.createPacienteTable(TableManager.java:29)
+	at turnera.Main.iniciarManager(Main.java:35)
+	at turnera.Main.main(Main.java:19)
+Caused by: org.h2.jdbc.JdbcSQLException: Timeout trying to lock table "SYS" [50200-176]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:344)
+	... 13 more
+11-25 21:02:07 database: close
+org.h2.message.DbException: Timeout trying to lock table "SYS" [50200-176]
+	at org.h2.message.DbException.get(DbException.java:178)
+	at org.h2.message.DbException.get(DbException.java:154)
+	at org.h2.table.RegularTable.doLock(RegularTable.java:530)
+	at org.h2.table.RegularTable.lock(RegularTable.java:464)
+	at org.h2.engine.Database.lockMeta(Database.java:869)
+	at org.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1300)
+	at org.h2.engine.Database.close(Database.java:1251)
+	at org.h2.engine.Database.removeSession(Database.java:1122)
+	at org.h2.engine.Session.close(Session.java:672)
+	at org.h2.jdbc.JdbcConnection.close(JdbcConnection.java:383)
+	at turnera.TableManager.createPacienteTable(TableManager.java:29)
+	at turnera.Main.iniciarManager(Main.java:35)
+	at turnera.Main.main(Main.java:19)
+Caused by: org.h2.jdbc.JdbcSQLException: Timeout trying to lock table "SYS" [50200-176]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:344)
+	... 13 more
+11-25 21:04:34 database: close
+org.h2.message.DbException: Timeout trying to lock table "SYS" [50200-176]
+	at org.h2.message.DbException.get(DbException.java:178)
+	at org.h2.message.DbException.get(DbException.java:154)
+	at org.h2.table.RegularTable.doLock(RegularTable.java:530)
+	at org.h2.table.RegularTable.lock(RegularTable.java:464)
+	at org.h2.engine.Database.lockMeta(Database.java:869)
+	at org.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1300)
+	at org.h2.engine.Database.close(Database.java:1251)
+	at org.h2.engine.Database.removeSession(Database.java:1122)
+	at org.h2.engine.Session.close(Session.java:672)
+	at org.h2.jdbc.JdbcConnection.close(JdbcConnection.java:383)
+	at turnera.TableManager.createPacienteTable(TableManager.java:29)
+	at turnera.Main.iniciarManager(Main.java:35)
+	at turnera.Main.main(Main.java:19)
+Caused by: org.h2.jdbc.JdbcSQLException: Timeout trying to lock table "SYS" [50200-176]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:344)
+	... 13 more
+11-25 21:04:45 database: close
+org.h2.message.DbException: Timeout trying to lock table "SYS" [50200-176]
+	at org.h2.message.DbException.get(DbException.java:178)
+	at org.h2.message.DbException.get(DbException.java:154)
+	at org.h2.table.RegularTable.doLock(RegularTable.java:530)
+	at org.h2.table.RegularTable.lock(RegularTable.java:464)
+	at org.h2.engine.Database.lockMeta(Database.java:869)
+	at org.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1300)
+	at org.h2.engine.Database.close(Database.java:1251)
+	at org.h2.engine.Database.removeSession(Database.java:1122)
+	at org.h2.engine.Session.close(Session.java:672)
+	at org.h2.jdbc.JdbcConnection.close(JdbcConnection.java:383)
+	at turnera.TableManager.createPacienteTable(TableManager.java:29)
+	at turnera.Main.iniciarManager(Main.java:35)
+	at turnera.Main.main(Main.java:19)
+Caused by: org.h2.jdbc.JdbcSQLException: Timeout trying to lock table "SYS" [50200-176]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:344)
+	... 13 more
+11-25 21:06:13 database: close
+org.h2.message.DbException: Timeout trying to lock table "SYS" [50200-176]
+	at org.h2.message.DbException.get(DbException.java:178)
+	at org.h2.message.DbException.get(DbException.java:154)
+	at org.h2.table.RegularTable.doLock(RegularTable.java:530)
+	at org.h2.table.RegularTable.lock(RegularTable.java:464)
+	at org.h2.engine.Database.lockMeta(Database.java:869)
+	at org.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1300)
+	at org.h2.engine.Database.close(Database.java:1251)
+	at org.h2.engine.Database.removeSession(Database.java:1122)
+	at org.h2.engine.Session.close(Session.java:672)
+	at org.h2.jdbc.JdbcConnection.close(JdbcConnection.java:383)
+	at turnera.TableManager.createPacienteTable(TableManager.java:29)
+	at turnera.Main.iniciarManager(Main.java:35)
+	at turnera.Main.main(Main.java:19)
+Caused by: org.h2.jdbc.JdbcSQLException: Timeout trying to lock table "SYS" [50200-176]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:344)
+	... 13 more
+11-25 21:07:16 database: close
+org.h2.message.DbException: Timeout trying to lock table "SYS" [50200-176]
+	at org.h2.message.DbException.get(DbException.java:178)
+	at org.h2.message.DbException.get(DbException.java:154)
+	at org.h2.table.RegularTable.doLock(RegularTable.java:530)
+	at org.h2.table.RegularTable.lock(RegularTable.java:464)
+	at org.h2.engine.Database.lockMeta(Database.java:869)
+	at org.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1300)
+	at org.h2.engine.Database.close(Database.java:1251)
+	at org.h2.engine.Database.removeSession(Database.java:1122)
+	at org.h2.engine.Session.close(Session.java:672)
+	at org.h2.jdbc.JdbcConnection.close(JdbcConnection.java:383)
+	at turnera.TableManager.createPacienteTable(TableManager.java:29)
+	at turnera.Main.iniciarManager(Main.java:35)
+	at turnera.Main.main(Main.java:19)
+Caused by: org.h2.jdbc.JdbcSQLException: Timeout trying to lock table "SYS" [50200-176]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:344)
+	... 13 more
+11-25 21:08:50 database: close
+org.h2.message.DbException: Timeout trying to lock table "SYS" [50200-176]
+	at org.h2.message.DbException.get(DbException.java:178)
+	at org.h2.message.DbException.get(DbException.java:154)
+	at org.h2.table.RegularTable.doLock(RegularTable.java:530)
+	at org.h2.table.RegularTable.lock(RegularTable.java:464)
+	at org.h2.engine.Database.lockMeta(Database.java:869)
+	at org.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1300)
+	at org.h2.engine.Database.close(Database.java:1251)
+	at org.h2.engine.Database.removeSession(Database.java:1122)
+	at org.h2.engine.Session.close(Session.java:672)
+	at org.h2.jdbc.JdbcConnection.close(JdbcConnection.java:383)
+	at turnera.TableManager.createPacienteTable(TableManager.java:29)
+	at turnera.Main.iniciarManager(Main.java:35)
+	at turnera.Main.main(Main.java:19)
+Caused by: org.h2.jdbc.JdbcSQLException: Timeout trying to lock table "SYS" [50200-176]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:344)
+	... 13 more
+11-25 21:10:18 database: close
+org.h2.message.DbException: Timeout trying to lock table "SYS" [50200-176]
+	at org.h2.message.DbException.get(DbException.java:178)
+	at org.h2.message.DbException.get(DbException.java:154)
+	at org.h2.table.RegularTable.doLock(RegularTable.java:530)
+	at org.h2.table.RegularTable.lock(RegularTable.java:464)
+	at org.h2.engine.Database.lockMeta(Database.java:869)
+	at org.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1300)
+	at org.h2.engine.Database.close(Database.java:1251)
+	at org.h2.engine.Database.removeSession(Database.java:1122)
+	at org.h2.engine.Session.close(Session.java:672)
+	at org.h2.jdbc.JdbcConnection.close(JdbcConnection.java:383)
+	at turnera.TableManager.createPacienteTable(TableManager.java:29)
+	at turnera.Main.iniciarManager(Main.java:35)
+	at turnera.Main.main(Main.java:19)
+Caused by: org.h2.jdbc.JdbcSQLException: Timeout trying to lock table "SYS" [50200-176]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:344)
+	... 13 more
+11-26 00:03:34 database: close
+org.h2.message.DbException: Timeout trying to lock table "SYS" [50200-176]
+	at org.h2.message.DbException.get(DbException.java:178)
+	at org.h2.message.DbException.get(DbException.java:154)
+	at org.h2.table.RegularTable.doLock(RegularTable.java:530)
+	at org.h2.table.RegularTable.lock(RegularTable.java:464)
+	at org.h2.engine.Database.lockMeta(Database.java:869)
+	at org.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1300)
+	at org.h2.engine.Database.close(Database.java:1251)
+	at org.h2.engine.Database.removeSession(Database.java:1122)
+	at org.h2.engine.Session.close(Session.java:672)
+	at org.h2.jdbc.JdbcConnection.close(JdbcConnection.java:383)
+	at turnera.TableManager.createPacienteTable(TableManager.java:29)
+	at turnera.Main.iniciarManager(Main.java:35)
+	at turnera.Main.main(Main.java:19)
+Caused by: org.h2.jdbc.JdbcSQLException: Timeout trying to lock table "SYS" [50200-176]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:344)
+	... 13 more
+11-26 00:04:51 database: close
+org.h2.message.DbException: Timeout trying to lock table "SYS" [50200-176]
+	at org.h2.message.DbException.get(DbException.java:178)
+	at org.h2.message.DbException.get(DbException.java:154)
+	at org.h2.table.RegularTable.doLock(RegularTable.java:530)
+	at org.h2.table.RegularTable.lock(RegularTable.java:464)
+	at org.h2.engine.Database.lockMeta(Database.java:869)
+	at org.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1300)
+	at org.h2.engine.Database.close(Database.java:1251)
+	at org.h2.engine.Database.removeSession(Database.java:1122)
+	at org.h2.engine.Session.close(Session.java:672)
+	at org.h2.jdbc.JdbcConnection.close(JdbcConnection.java:383)
+	at turnera.TableManager.createPacienteTable(TableManager.java:29)
+	at turnera.Main.iniciarManager(Main.java:35)
+	at turnera.Main.main(Main.java:19)
+Caused by: org.h2.jdbc.JdbcSQLException: Timeout trying to lock table "SYS" [50200-176]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:344)
+	... 13 more
+11-26 00:07:41 database: close
+org.h2.message.DbException: Timeout trying to lock table "SYS" [50200-176]
+	at org.h2.message.DbException.get(DbException.java:178)
+	at org.h2.message.DbException.get(DbException.java:154)
+	at org.h2.table.RegularTable.doLock(RegularTable.java:530)
+	at org.h2.table.RegularTable.lock(RegularTable.java:464)
+	at org.h2.engine.Database.lockMeta(Database.java:869)
+	at org.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1300)
+	at org.h2.engine.Database.close(Database.java:1251)
+	at org.h2.engine.Database.removeSession(Database.java:1122)
+	at org.h2.engine.Session.close(Session.java:672)
+	at org.h2.jdbc.JdbcConnection.close(JdbcConnection.java:383)
+	at turnera.TableManager.createPacienteTable(TableManager.java:29)
+	at turnera.Main.iniciarManager(Main.java:35)
+	at turnera.Main.main(Main.java:19)
+Caused by: org.h2.jdbc.JdbcSQLException: Timeout trying to lock table "SYS" [50200-176]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:344)
+	... 13 more
+11-26 00:08:34 database: close
+org.h2.message.DbException: Timeout trying to lock table "SYS" [50200-176]
+	at org.h2.message.DbException.get(DbException.java:178)
+	at org.h2.message.DbException.get(DbException.java:154)
+	at org.h2.table.RegularTable.doLock(RegularTable.java:530)
+	at org.h2.table.RegularTable.lock(RegularTable.java:464)
+	at org.h2.engine.Database.lockMeta(Database.java:869)
+	at org.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1300)
+	at org.h2.engine.Database.close(Database.java:1251)
+	at org.h2.engine.Database.removeSession(Database.java:1122)
+	at org.h2.engine.Session.close(Session.java:672)
+	at org.h2.jdbc.JdbcConnection.close(JdbcConnection.java:383)
+	at turnera.TableManager.createPacienteTable(TableManager.java:29)
+	at turnera.Main.iniciarManager(Main.java:35)
+	at turnera.Main.main(Main.java:19)
+Caused by: org.h2.jdbc.JdbcSQLException: Timeout trying to lock table "SYS" [50200-176]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:344)
+	... 13 more
+11-26 00:19:48 database: close
+org.h2.message.DbException: Timeout trying to lock table "SYS" [50200-176]
+	at org.h2.message.DbException.get(DbException.java:178)
+	at org.h2.message.DbException.get(DbException.java:154)
+	at org.h2.table.RegularTable.doLock(RegularTable.java:530)
+	at org.h2.table.RegularTable.lock(RegularTable.java:464)
+	at org.h2.engine.Database.lockMeta(Database.java:869)
+	at org.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1300)
+	at org.h2.engine.Database.close(Database.java:1251)
+	at org.h2.engine.Database.removeSession(Database.java:1122)
+	at org.h2.engine.Session.close(Session.java:672)
+	at org.h2.jdbc.JdbcConnection.close(JdbcConnection.java:383)
+	at turnera.TableManager.createPacienteTable(TableManager.java:29)
+	at turnera.Main.crearTabla(Main.java:35)
+	at turnera.Main.main(Main.java:19)
+Caused by: org.h2.jdbc.JdbcSQLException: Timeout trying to lock table "SYS" [50200-176]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:344)
+	... 13 more
+11-26 00:20:30 database: close
+org.h2.message.DbException: Timeout trying to lock table "SYS" [50200-176]
+	at org.h2.message.DbException.get(DbException.java:178)
+	at org.h2.message.DbException.get(DbException.java:154)
+	at org.h2.table.RegularTable.doLock(RegularTable.java:530)
+	at org.h2.table.RegularTable.lock(RegularTable.java:464)
+	at org.h2.engine.Database.lockMeta(Database.java:869)
+	at org.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1300)
+	at org.h2.engine.Database.close(Database.java:1251)
+	at org.h2.engine.Database.removeSession(Database.java:1122)
+	at org.h2.engine.Session.close(Session.java:672)
+	at org.h2.jdbc.JdbcConnection.close(JdbcConnection.java:383)
+	at turnera.TableManager.createPacienteTable(TableManager.java:29)
+	at turnera.Main.crearTabla(Main.java:35)
+	at turnera.Main.main(Main.java:19)
+Caused by: org.h2.jdbc.JdbcSQLException: Timeout trying to lock table "SYS" [50200-176]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:344)
+	... 13 more
+11-26 16:19:41 database: close
+org.h2.message.DbException: Timeout trying to lock table "SYS" [50200-176]
+	at org.h2.message.DbException.get(DbException.java:178)
+	at org.h2.message.DbException.get(DbException.java:154)
+	at org.h2.table.RegularTable.doLock(RegularTable.java:530)
+	at org.h2.table.RegularTable.lock(RegularTable.java:464)
+	at org.h2.engine.Database.lockMeta(Database.java:869)
+	at org.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1300)
+	at org.h2.engine.Database.close(Database.java:1251)
+	at org.h2.engine.Database.removeSession(Database.java:1122)
+	at org.h2.engine.Session.close(Session.java:672)
+	at org.h2.jdbc.JdbcConnection.close(JdbcConnection.java:383)
+	at turnera.TableManager.createPacienteTable(TableManager.java:29)
+	at turnera.Main.crearTabla(Main.java:35)
+	at turnera.Main.main(Main.java:19)
+Caused by: org.h2.jdbc.JdbcSQLException: Timeout trying to lock table "SYS" [50200-176]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:344)
+	... 13 more
+11-26 16:29:21 database: close
+org.h2.message.DbException: Timeout trying to lock table "SYS" [50200-176]
+	at org.h2.message.DbException.get(DbException.java:178)
+	at org.h2.message.DbException.get(DbException.java:154)
+	at org.h2.table.RegularTable.doLock(RegularTable.java:530)
+	at org.h2.table.RegularTable.lock(RegularTable.java:464)
+	at org.h2.engine.Database.lockMeta(Database.java:869)
+	at org.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1300)
+	at org.h2.engine.Database.close(Database.java:1251)
+	at org.h2.engine.Database.removeSession(Database.java:1122)
+	at org.h2.engine.Session.close(Session.java:672)
+	at org.h2.jdbc.JdbcConnection.close(JdbcConnection.java:383)
+	at turnera.TableManager.createPacienteTable(TableManager.java:29)
+	at turnera.Main.crearTabla(Main.java:35)
+	at turnera.Main.main(Main.java:19)
+Caused by: org.h2.jdbc.JdbcSQLException: Timeout trying to lock table "SYS" [50200-176]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:344)
+	... 13 more
+11-26 16:30:09 database: close
+org.h2.message.DbException: Timeout trying to lock table "SYS" [50200-176]
+	at org.h2.message.DbException.get(DbException.java:178)
+	at org.h2.message.DbException.get(DbException.java:154)
+	at org.h2.table.RegularTable.doLock(RegularTable.java:530)
+	at org.h2.table.RegularTable.lock(RegularTable.java:464)
+	at org.h2.engine.Database.lockMeta(Database.java:869)
+	at org.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1300)
+	at org.h2.engine.Database.close(Database.java:1251)
+	at org.h2.engine.Database.removeSession(Database.java:1122)
+	at org.h2.engine.Session.close(Session.java:672)
+	at org.h2.jdbc.JdbcConnection.close(JdbcConnection.java:383)
+	at turnera.TableManager.createPacienteTable(TableManager.java:29)
+	at turnera.Main.crearTabla(Main.java:35)
+	at turnera.Main.main(Main.java:19)
+Caused by: org.h2.jdbc.JdbcSQLException: Timeout trying to lock table "SYS" [50200-176]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:344)
+	... 13 more
+11-26 20:22:20 database: close
+org.h2.message.DbException: Timeout trying to lock table "SYS" [50200-176]
+	at org.h2.message.DbException.get(DbException.java:178)
+	at org.h2.message.DbException.get(DbException.java:154)
+	at org.h2.table.RegularTable.doLock(RegularTable.java:530)
+	at org.h2.table.RegularTable.lock(RegularTable.java:464)
+	at org.h2.engine.Database.lockMeta(Database.java:869)
+	at org.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1300)
+	at org.h2.engine.Database.close(Database.java:1251)
+	at org.h2.engine.Database.removeSession(Database.java:1122)
+	at org.h2.engine.Session.close(Session.java:672)
+	at org.h2.jdbc.JdbcConnection.close(JdbcConnection.java:383)
+	at turnera.TableManager.createPacienteTable(TableManager.java:29)
+	at turnera.Main.crearTabla(Main.java:35)
+	at turnera.Main.main(Main.java:19)
+Caused by: org.h2.jdbc.JdbcSQLException: Timeout trying to lock table "SYS" [50200-176]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:344)
+	... 13 more
+11-26 20:31:49 database: close
+org.h2.message.DbException: Timeout trying to lock table "SYS" [50200-176]
+	at org.h2.message.DbException.get(DbException.java:178)
+	at org.h2.message.DbException.get(DbException.java:154)
+	at org.h2.table.RegularTable.doLock(RegularTable.java:530)
+	at org.h2.table.RegularTable.lock(RegularTable.java:464)
+	at org.h2.engine.Database.lockMeta(Database.java:869)
+	at org.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1300)
+	at org.h2.engine.Database.close(Database.java:1251)
+	at org.h2.engine.Database.removeSession(Database.java:1122)
+	at org.h2.engine.Session.close(Session.java:672)
+	at org.h2.jdbc.JdbcConnection.close(JdbcConnection.java:383)
+	at turnera.TableManager.createPacienteTable(TableManager.java:29)
+	at turnera.Main.crearTabla(Main.java:35)
+	at turnera.Main.main(Main.java:19)
+Caused by: org.h2.jdbc.JdbcSQLException: Timeout trying to lock table "SYS" [50200-176]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:344)
+	... 13 more
+11-26 20:40:14 database: close
+org.h2.message.DbException: Timeout trying to lock table "SYS" [50200-176]
+	at org.h2.message.DbException.get(DbException.java:178)
+	at org.h2.message.DbException.get(DbException.java:154)
+	at org.h2.table.RegularTable.doLock(RegularTable.java:530)
+	at org.h2.table.RegularTable.lock(RegularTable.java:464)
+	at org.h2.engine.Database.lockMeta(Database.java:869)
+	at org.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1300)
+	at org.h2.engine.Database.close(Database.java:1251)
+	at org.h2.engine.Database.removeSession(Database.java:1122)
+	at org.h2.engine.Session.close(Session.java:672)
+	at org.h2.jdbc.JdbcConnection.close(JdbcConnection.java:383)
+	at turnera.TableManager.createPacienteTable(TableManager.java:29)
+	at turnera.Main.crearTabla(Main.java:35)
+	at turnera.Main.main(Main.java:19)
+Caused by: org.h2.jdbc.JdbcSQLException: Timeout trying to lock table "SYS" [50200-176]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:344)
+	... 13 more
+11-26 20:53:17 database: close
+org.h2.message.DbException: Timeout trying to lock table "SYS" [50200-176]
+	at org.h2.message.DbException.get(DbException.java:178)
+	at org.h2.message.DbException.get(DbException.java:154)
+	at org.h2.table.RegularTable.doLock(RegularTable.java:530)
+	at org.h2.table.RegularTable.lock(RegularTable.java:464)
+	at org.h2.engine.Database.lockMeta(Database.java:869)
+	at org.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1300)
+	at org.h2.engine.Database.close(Database.java:1251)
+	at org.h2.engine.Database.removeSession(Database.java:1122)
+	at org.h2.engine.Session.close(Session.java:672)
+	at org.h2.jdbc.JdbcConnection.close(JdbcConnection.java:383)
+	at turnera.TableManager.createPacienteTable(TableManager.java:29)
+	at turnera.Main.crearTabla(Main.java:35)
+	at turnera.Main.main(Main.java:19)
+Caused by: org.h2.jdbc.JdbcSQLException: Timeout trying to lock table "SYS" [50200-176]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:344)
+	... 13 more
+11-26 20:59:56 database: close
+org.h2.message.DbException: Timeout trying to lock table "SYS" [50200-176]
+	at org.h2.message.DbException.get(DbException.java:178)
+	at org.h2.message.DbException.get(DbException.java:154)
+	at org.h2.table.RegularTable.doLock(RegularTable.java:530)
+	at org.h2.table.RegularTable.lock(RegularTable.java:464)
+	at org.h2.engine.Database.lockMeta(Database.java:869)
+	at org.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1300)
+	at org.h2.engine.Database.close(Database.java:1251)
+	at org.h2.engine.Database.removeSession(Database.java:1122)
+	at org.h2.engine.Session.close(Session.java:672)
+	at org.h2.jdbc.JdbcConnection.close(JdbcConnection.java:383)
+	at turnera.TableManager.createPacienteTable(TableManager.java:29)
+	at turnera.Main.crearTabla(Main.java:35)
+	at turnera.Main.main(Main.java:19)
+Caused by: org.h2.jdbc.JdbcSQLException: Timeout trying to lock table "SYS" [50200-176]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:344)
+	... 13 more
+11-26 21:06:22 database: close
+org.h2.message.DbException: Timeout trying to lock table "SYS" [50200-176]
+	at org.h2.message.DbException.get(DbException.java:178)
+	at org.h2.message.DbException.get(DbException.java:154)
+	at org.h2.table.RegularTable.doLock(RegularTable.java:530)
+	at org.h2.table.RegularTable.lock(RegularTable.java:464)
+	at org.h2.engine.Database.lockMeta(Database.java:869)
+	at org.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1300)
+	at org.h2.engine.Database.close(Database.java:1251)
+	at org.h2.engine.Database.removeSession(Database.java:1122)
+	at org.h2.engine.Session.close(Session.java:672)
+	at org.h2.jdbc.JdbcConnection.close(JdbcConnection.java:383)
+	at turnera.TableManager.createPacienteTable(TableManager.java:29)
+	at turnera.Main.crearTabla(Main.java:35)
+	at turnera.Main.main(Main.java:19)
+Caused by: org.h2.jdbc.JdbcSQLException: Timeout trying to lock table "SYS" [50200-176]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:344)
+	... 13 more
+11-26 21:07:13 database: close
+org.h2.message.DbException: Timeout trying to lock table "SYS" [50200-176]
+	at org.h2.message.DbException.get(DbException.java:178)
+	at org.h2.message.DbException.get(DbException.java:154)
+	at org.h2.table.RegularTable.doLock(RegularTable.java:530)
+	at org.h2.table.RegularTable.lock(RegularTable.java:464)
+	at org.h2.engine.Database.lockMeta(Database.java:869)
+	at org.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1300)
+	at org.h2.engine.Database.close(Database.java:1251)
+	at org.h2.engine.Database.removeSession(Database.java:1122)
+	at org.h2.engine.Session.close(Session.java:672)
+	at org.h2.jdbc.JdbcConnection.close(JdbcConnection.java:383)
+	at turnera.TableManager.createPacienteTable(TableManager.java:29)
+	at turnera.Main.crearTabla(Main.java:35)
+	at turnera.Main.main(Main.java:19)
+Caused by: org.h2.jdbc.JdbcSQLException: Timeout trying to lock table "SYS" [50200-176]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:344)
+	... 13 more
+11-26 21:08:01 database: close
+org.h2.message.DbException: Timeout trying to lock table "SYS" [50200-176]
+	at org.h2.message.DbException.get(DbException.java:178)
+	at org.h2.message.DbException.get(DbException.java:154)
+	at org.h2.table.RegularTable.doLock(RegularTable.java:530)
+	at org.h2.table.RegularTable.lock(RegularTable.java:464)
+	at org.h2.engine.Database.lockMeta(Database.java:869)
+	at org.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1300)
+	at org.h2.engine.Database.close(Database.java:1251)
+	at org.h2.engine.Database.removeSession(Database.java:1122)
+	at org.h2.engine.Session.close(Session.java:672)
+	at org.h2.jdbc.JdbcConnection.close(JdbcConnection.java:383)
+	at turnera.TableManager.createPacienteTable(TableManager.java:29)
+	at turnera.Main.crearTabla(Main.java:35)
+	at turnera.Main.main(Main.java:19)
+Caused by: org.h2.jdbc.JdbcSQLException: Timeout trying to lock table "SYS" [50200-176]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:344)
+	... 13 more
+11-26 23:07:04 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "PACIENTES" already exists; SQL statement:
+CREATE TABLE IF NOT EXISTS pacientes;CREATE TABLE pacientes (id INTEGER IDENTITY, nombre VARCHAR(256), apellido VARCHAR(256), genero VARCHAR(256), dni INTEGER, fecha_de_nacimiento DATE) [42101-176]
+11-27 16:26:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECTT[*] * FROM PACIENTES "; expected "SELECT, SET, SAVEPOINT, SCRIPT, SHUTDOWN, SHOW, {"; SQL statement:
+SELECTT * FROM pacientes [42001-176]
+11-27 16:26:23 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECTT[*] * FROM PACIENTES "; expected "SELECT, SET, SAVEPOINT, SCRIPT, SHUTDOWN, SHOW, {"; SQL statement:
+SELECTT * FROM pacientes [42001-176]
+11-27 16:26:49 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECTT[*] * FROM PACIENTES "; expected "SELECT, SET, SAVEPOINT, SCRIPT, SHUTDOWN, SHOW, {"; SQL statement:
+SELECTT * FROM pacientes [42001-176]
+11-27 16:27:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECTT[*] * FROM PACIENTES "; expected "SELECT, SET, SAVEPOINT, SCRIPT, SHUTDOWN, SHOW, {"; SQL statement:
+SELECTT * FROM pacientes [42001-176]
+11-27 16:28:08 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECTT[*] * FROM PACIENTES "; expected "SELECT, SET, SAVEPOINT, SCRIPT, SHUTDOWN, SHOW, {"; SQL statement:
+SELECTT * FROM pacientes [42001-176]
+11-27 16:28:44 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECTT[*] * FROM PACIENTES "; expected "SELECT, SET, SAVEPOINT, SCRIPT, SHUTDOWN, SHOW, {"; SQL statement:
+SELECTT * FROM pacientes [42001-176]
+11-27 16:29:22 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECTT[*] * FROM PACIENTES "; expected "SELECT, SET, SAVEPOINT, SCRIPT, SHUTDOWN, SHOW, {"; SQL statement:
+SELECTT * FROM pacientes [42001-176]
